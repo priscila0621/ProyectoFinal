@@ -14,7 +14,7 @@ namespace ProyectoFinal.Models
         public string Telefono { get; set; }
         public string Posicion { get; set; }
         public string Departamento { get; set; }
-        public decimal SalarioBase { get; set; }
+        public double SalarioBase { get; set; }
         public DateTime FechaContratacion { get; set; }
     }
 }
